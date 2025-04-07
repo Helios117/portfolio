@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    background-image: linear-gradient(to bottom right, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 100%);
+    background-image: linear-gradient(to bottom right, rgba(2,0,36,1) 0%, rgb(12.16% 16.08% 21.57%) 100%);
 }
 
 .navbar {
@@ -26,7 +26,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(173, 216, 230, 0.5);
+    background-color: rgb(173, 216, 230, 0.95);
 }
 
 .links a {
@@ -37,4 +37,34 @@ body {
 .section {
     display: flex;
     min-height: 100%;
+}
+
+.hero {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 16px;
+}
+
+.hero .heading {
+    color: white;
+    font-size: 48px;
+}
+
+.hero .text {
+    color: lightgray;
+    font-size: large;
+    font-style: italic;
+}
+
+.hero .author {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.logo {
+    flex: 0 0 auto;
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
 }
