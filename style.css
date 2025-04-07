@@ -26,5 +26,15 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: lightblue;
+    background-color: rgb(173, 216, 230, 0.5);
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+}
+
+.section {
+    display: flex;
+    min-height: 100%;
 }
