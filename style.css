@@ -11,6 +11,12 @@ body {
     background-image: linear-gradient(to bottom right, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 100%);
 }
 
-.section {
-    height: 100%;
+.links {
+    position: fixed;
+    top: 0px;
+    padding: 8px;
+    margin: 8px;
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
 }
