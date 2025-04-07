@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    background-image: linear-gradient(to bottom right, rgba(2,0,36,1) 0%, rgb(12.16% 16.08% 21.57%) 100%);
+    background-image: linear-gradient(to bottom right, rgba(2,0,36,1) 0%, rgba(41,53,70,1) 100%);
 }
 
 .navbar {
@@ -22,6 +22,7 @@ body {
     top: 0px;
     padding: 8px;
     margin: 8px;
+    gap: 32px;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
