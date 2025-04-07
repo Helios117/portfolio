@@ -1,0 +1,16 @@
+/* External styling */
+html {
+    box-sizing: border-box;
+  }
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 100%);
+}
+
+.section {
+    height: 100%;
+}
