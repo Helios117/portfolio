@@ -39,6 +39,11 @@ body {
     min-height: 100%;
 }
 
+#Home {
+    gap: 32px;
+    height: 100%;
+}
+
 .hero {
     display: flex;
     flex-flow: column wrap;
@@ -57,6 +62,7 @@ body {
 }
 
 .hero .author {
+    color: lightgray;
     align-self: flex-end;
     font-weight: bold;
     font-size: larger;
