@@ -11,6 +11,11 @@ body {
     background-image: linear-gradient(to bottom right, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 100%);
 }
 
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
 .links {
     position: fixed;
     top: 0px;
@@ -19,6 +24,6 @@ body {
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
-    align-self: center;
+    align-items: center;
     background-color: lightblue;
 }
