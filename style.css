@@ -65,11 +65,12 @@ body {
 }
 
 .text {
-    color: lightgray;
+    color: white;
     font-size: large;
 }
 
 .hero .text {
+    color: lightgray;
     font-style: italic;
 }
 
@@ -94,8 +95,7 @@ body {
 }
 
 .block {
-    border: 8px solid;
-    border-color: orange;
+    border: 8px solid orange;
     border-radius: 32px 16px;
     padding: 16px;
     transition: all 500ms;
@@ -104,4 +104,47 @@ body {
 .block:hover {
     transform: scale(1.1);
     background-color: black;
+}
+
+#Contact {
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+}
+
+.entry {
+    display: flex;
+    flex-direction: column;
+    min-height: 50dvh;
+    min-width: 75dvh;
+    justify-content: space-between;
+    background-color: black;
+    border: 8px solid orange;
+    border-radius: 16px;
+    padding: 32px;
+    align-items: center;
+}
+
+.entry input {
+    border-radius: 16px;
+    min-width: 75%;
+}
+.entry .message {
+    height: 20dvh;
+}
+
+.entry .message::placeholder {
+    text-align: left;
+    vertical-align: text-top;
+}
+
+.entry button {
+    width: 128px;
+    background-color: orange;
+    color: black;
+}
+
+.profiles button {
+    background-color: orange;
+    padding: 8px;
 }
