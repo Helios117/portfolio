@@ -27,7 +27,14 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(173, 216, 230, 0.95);
+    background-color: orange;
+    opacity: 80%;
+    transition: all 500ms;
+}
+
+.links:hover {
+    opacity: 100%;
+    transform: scale(1.1);
 }
 
 .links a {
@@ -39,6 +46,7 @@ body {
     display: flex;
     min-height: 100dvh;
     align-items: center;
+    justify-content: space-around;
 }
 
 #Home {
@@ -53,18 +61,15 @@ body {
 
 .heading {
     color: white;
+    font-size: 48px;
 }
 
 .text {
     color: lightgray;
-}
-
-.hero .heading {
-    font-size: 48px;
+    font-size: large;
 }
 
 .hero .text {
-    font-size: large;
     font-style: italic;
 }
 
@@ -80,4 +85,23 @@ body {
     width: 300px;
     height: 200px;
     border-radius: 8px;
+}
+
+#About {
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+}
+
+.block {
+    border: 8px solid;
+    border-color: orange;
+    border-radius: 32px 16px;
+    padding: 16px;
+    transition: all 500ms;
+}
+
+.block:hover {
+    transform: scale(1.1);
+    background-color: black;
 }
