@@ -37,12 +37,12 @@ body {
 
 .section {
     display: flex;
-    min-height: 100%;
+    min-height: 100dvh;
+    align-items: center;
 }
 
 #Home {
     gap: 32px;
-    height: 100%;
 }
 
 .hero {
@@ -51,13 +51,19 @@ body {
     gap: 16px;
 }
 
-.hero .heading {
+.heading {
     color: white;
+}
+
+.text {
+    color: lightgray;
+}
+
+.hero .heading {
     font-size: 48px;
 }
 
 .hero .text {
-    color: lightgray;
     font-size: large;
     font-style: italic;
 }
