@@ -8,7 +8,8 @@ html {
 }
 
 body {
-    background-image: linear-gradient(rgba(2,0,36,1) 0%, rgba(41,53,70,1) 100%);
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
 }
 
 .navbar {
@@ -27,7 +28,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: orange;
+    background-color: darkslategrey;
     opacity: 80%;
     transition: all 500ms;
 }
@@ -60,22 +61,21 @@ body {
 }
 
 .heading {
-    color: white;
+    color: black;
     font-size: 48px;
 }
 
 .text {
-    color: white;
-    font-size: large;
+    color: black;
+    font-size: larger;
 }
 
 .hero .text {
-    color: lightgray;
     font-style: italic;
 }
 
 .hero .author {
-    color: lightgray;
+    color: black;
     align-self: flex-end;
     font-weight: bold;
     font-size: larger;
@@ -95,7 +95,7 @@ body {
 }
 
 .block {
-    border: 8px solid orange;
+    border: 8px solid darkslategray;
     border-radius: 32px 16px;
     padding: 16px;
     transition: all 500ms;
@@ -103,7 +103,7 @@ body {
 
 .block:hover {
     transform: scale(1.1);
-    background-color: black;
+    background-color: orange;
 }
 
 #Contact {
@@ -118,7 +118,7 @@ body {
     min-height: 50dvh;
     min-width: 75dvh;
     justify-content: space-between;
-    background-color: black;
+    background-color: darkslategray;
     border: 8px solid orange;
     border-radius: 16px;
     padding: 32px;
